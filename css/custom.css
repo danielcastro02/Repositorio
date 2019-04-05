@@ -1,0 +1,38 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 3px;
+
+}
+
+.homeimg{
+    background-image: url('../Img/4.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.cardhome{
+    background: radial-gradient(black, transparent 70%);
+    height: 500px;
+    width: 33%;
+    margin-top:15%;
+    transition: 0.2s ease-in;
+    opacity: 0;
+}
+.cardhome:hover{
+   height: 600px;
+   margin-top: 12%;
+}
+.corpadrao{
+    background: linear-gradient(to bottom, #0b0b2f  , transparent);
+}
+
+nav{
+    background: linear-gradient(to bottom, black , transparent);
+
+}
+
+footer{
+    background: linear-gradient(to bottom, transparent, black , black);
+}
